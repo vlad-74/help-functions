@@ -6,16 +6,16 @@ console.log(gl_hr);
 
 console.log('ДЛЯ РАБОТЫ СО СТАТУСАМИ НУЖНО ПОДКЛЮЧИТЬ - help-functions/status.js ');
 let str = `
-function ttt(status, val){
+function callbackf(status, val){
  console.log('!!!Status__' + status.name + '__value = ' + val + ' (time: ' +  new Date(status.time).toLocaleString() + ') | oldvalue = ' + status.oldvalue + ' (oldtime: ' + new Date(status.oldtime).toLocaleString() + ')');
 }
 
 //!! Вторрой параметр - callback - ОПЦИОНАЛЬНО
-// hf.sts.create_status('page', ttt); 
+// hf.sts.create_status('page', callbackf); 
 // hf.sts.create_status('body'); 
 
 let statuses = ['body','page', 'lng', 'flg'];
-statuses.map(item => hf.sts.create_status(item, ttt)); //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
+statuses.map(item => hf.sts.create_status(item, callbackf)); //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
 statuses.map(item => global[item].currentStatus = "open"); //В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
 setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);
 
@@ -23,12 +23,12 @@ setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; 
 `
 console.log(str);
 
-function ttt(status, val){
+function callbackf(status, val){
 	console.log(status.name + ': !eventCurrentStatus = ' + val  + ' (time: ' +  new Date(status.time).toLocaleString() + ') | oldvalue = ' + status.oldvalue + ' (oldtime: ' + new Date(status.oldtime).toLocaleString() + ')');
 }
 
 let statuses = ['status_body','status_current_page', 'status_current_lng', 'status_current_flg'];
-statuses.map(item => hf.sts.create_status(item, ttt)); //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
+statuses.map(item => hf.sts.create_status(item, callbackf)); //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
 statuses.map(item => global[item].currentStatus = "open"); //В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
 setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);
 

@@ -1,6 +1,6 @@
-# Help-functions :<br />
+# JAVASCRIPT help-functions :
 
-# ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `cmd ДЕМО (СНИППЕТЫ)- для наглядности и истории`
+# ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `cmd ДЕМО (СНИППЕТЫ)- для наглядности и закрепления навыков`
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `БИБЛИОТЕКА ФУНКЦИЙ`               
 
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `npm install help-functions`
@@ -11,11 +11,24 @@
 
 # ФУНКЦИИ РАЗБИТЫ НА JS ФАЙЛЫ "ПО ФУНКЦИОНАЛУ"
 ## ФАЙЛ index.js АГРЕГИРУЕТ ВСЕ ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ :
-### exports.fun = require('./functions');
-### exports.arr = require('./array'); 
-### exports.obj = require('./obj');
-### exports.fil = require('./fs');
-### exports.bro = require('./browser');
-### exports.wat = require('./watch'); 
-### exports.sts = require('./status'); 
-### exports.vld = require('./validation'); 
+#### exports.fun = require('./functions');
+#### exports.arr = require('./array'); 
+#### exports.obj = require('./obj');
+#### exports.fil = require('./fs');
+#### exports.bro = require('./browser');
+#### exports.wat = require('./watch'); 
+#### exports.sts = require('./status'); 
+#### exports.vld = require('./validation'); 
+
+## ПРИМЕР ИСПОЛЬЗОВАНИЯ ФУНКЦИЙ :
+#### let hf = require('help-functions'); 
+
+#### glblArr.sort(hf.arr.dynamicSortMultiple("c DESC","b Asc","a")));//ДЛЯ МУЛЬТИСОРТИРОВКИ МАССИВА
+## ИЛИ ЕЩЕ
+#### let statuses = ['status_body','status_current_page', 'status_current_lng', 'status_current_flg'];
+#### statuses.map(item => hf.sts.create_status(item, callbackf)); //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
+#### statuses.map(item => global[item].currentStatus = "open"); //В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
+#### setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);
+
+
+# "ПОПОЛНИМ КОПИЛКУ" - ПРИ ЖЕЛАНИЕ ВЫСЫЛАЙТЕ СВОИ "РАБОЧИЕ" ФУНКИИ И DEMO
