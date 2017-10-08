@@ -42,7 +42,7 @@ exports.gl_min = function(/*...*/){
  if (arguments[i] < mn) mn = arguments[i];
  return mn;
 }
-// var largest = gl_min(1, 10, 100, 2, 3, 1000, 4, 5, 10000, 6); // 
+// var mn = gl_min(1, 10, 100, 2, 3, 1000, 4, 5, 10000, 6); // 
 // !!!console.log(gl_min(...[1, 10, 100, 2, 3, 1000, 4, 5, -10000, 6], 15, 25, -10001));
 
 
