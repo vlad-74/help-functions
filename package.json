@@ -1,0 +1,19 @@
+{
+  "name": "help-functions",
+  "version": "1.0.0",
+  "description": "snippets, demo, myFunctions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlad-74/help-functions.git"
+  },
+  "author": "Kurguzov Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlad-74/help-functions/issues"
+  },
+  "homepage": "https://github.com/vlad-74/help-functions#readme"
+}
