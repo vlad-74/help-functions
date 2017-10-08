@@ -1,6 +1,8 @@
 global.gl_hr = '=======================================================================================';
 global.gl_rz = '---------------------------------------РЕЗУЛЬТАТ---------------------------------------';
 
+require('./demo/data/global.js');
+
 exports.fun = require('./functions/functions');
 exports.arr = require('./functions/array'); 
 exports.obj = require('./functions/obj');

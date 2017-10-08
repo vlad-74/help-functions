@@ -48,5 +48,5 @@ let glblArr = [
 ];
 global.glblArr = glblArr;
 
-console.log("\nКонтекст из data/global.js");
+// console.log("\nКонтекст из data/global.js\n");
 

@@ -14,6 +14,7 @@
 
 ## `ФУНКЦИИ "ПО ФУНКЦИОНАЛУ" РАЗБИТЫ НА JS ФАЙЛЫ`
 ## ФАЙЛ index.js АГРЕГИРУЕТ ВСЕ ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ :
+#### `require('./demo/data/global.js');`
 #### `exports.fun = require('./functions/functions');`
 #### `exports.arr = require('./functions/array'); `
 #### `exports.obj = require('./functions/obj');`
@@ -28,14 +29,14 @@
 #### `var largest = hf.arr.gl_max(1, 10, 100, 2, 3, 1000, 4, 5, 10000, 6); // => 10000`
 #### `console.log(largest);`
 
-##### ДЛЯ МУЛЬТИСОРТИРОВКИ МАССИВА :
-#### `glblArr.sort(hf.arr.dynamicSortMultiple("c DESC","b Asc","a")));`
+##### //ДЛЯ МУЛЬТИСОРТИРОВКИ МАССИВА :
+#### `glblArr.sort(hf.arr.dynamicSortMultiple("c DESC","b Asc","a"));`
 
-##### СОЗДАНИЕ И ИСПОЛЬЗОВАНИЕ СТАТУСОВ :
+##### //МАССИВ СТАТУСОВ :
 #### `let statuses = ['status_body','status_current_page', 'status_current_lng', 'status_current_flg'];`
-##### ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА :
-#### `statuses.map(item => hf.sts.create_status(item, callbackf));` 
-##### В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
+##### //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА :
+#### `statuses.map(item => hf.sts.create_status(item));` 
+##### //В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
 #### `statuses.map(item => global[item].currentStatus = "open");`
 #### `setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);`
 
