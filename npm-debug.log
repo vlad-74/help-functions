@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'init' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 verbose stack Error: kill ENOSYS
+4 verbose stack     at exports._errnoException (util.js:1034:11)
+4 verbose stack     at process.kill (internal/process.js:188:13)
+4 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+4 verbose stack     at emitNone (events.js:86:13)
+4 verbose stack     at process.emit (events.js:188:7)
+4 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+4 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+5 verbose cwd D:\_DEVELOPER\Sites\_GIT\06-help-functions
+6 error Windows_NT 10.0.15063
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "init"
+8 error node v7.7.4
+9 error npm  v4.1.2
+10 error code ENOSYS
+11 error errno ENOSYS
+12 error syscall kill
+13 error kill ENOSYS
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]
