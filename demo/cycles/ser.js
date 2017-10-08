@@ -1,5 +1,4 @@
 let hf = require('../../index'); //require('help-functions');
-require('../data/global'); //импорт функционала из global.js - GBL
 // console.log(gl_hr, '\nВСЕ ФУНКЦИИ В help-functions : \n',  hf, '\n', gl_hr);
 
 console.log('\n!!!Вначале отрабатывают контексты require(), И только затем выводятся переменные!!!');
