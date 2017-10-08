@@ -1,6 +1,6 @@
 let hf = require('../../index'); //require('help-functions');
-
-console.log(hf.fil.hr);
+// console.log(gl_hr, '\nВСЕ ФУНКЦИИ В help-functions : \n',  hf, '\n', gl_hr);
+console.log(gl_hr);
 
 let str = `
 // Читать файл (путь указывается по другому)
@@ -108,3 +108,4 @@ setTimeout(function(){
 }, 1000);
 
 console.log('\n\n=====================ОКОНЧАНИЕ БЛОКА FILE=====================') ;
+console.log("console.log(gl_hr, '\\nВСЕ ФУНКЦИИ В help-functions : \\n',  hf, '\\n', gl_hr);");
