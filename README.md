@@ -1,6 +1,6 @@
 # JAVASCRIPT `help-functions`
 
-# ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `cmd ДЕМО (СНИППЕТЫ)- для наглядности и закрепления навыков`
+# ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `cmd ДЕМО (СНИППЕТЫ)- визуализация функционала javascript и закрепление навыков`
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `БИБЛИОТЕКА ФУНКЦИЙ`               
 
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `npm install help-functions`
