@@ -21,14 +21,17 @@
 #### exports.vld = require('./validation'); 
 
 ## ПРИМЕР ИСПОЛЬЗОВАНИЯ ФУНКЦИЙ :
-#### let hf = require('help-functions'); 
+#### `let hf = require('help-functions');` 
 
-#### glblArr.sort(hf.arr.dynamicSortMultiple("c DESC","b Asc","a")));//ДЛЯ МУЛЬТИСОРТИРОВКИ МАССИВА
+##### ДЛЯ МУЛЬТИСОРТИРОВКИ МАССИВА
+#### `glblArr.sort(hf.arr.dynamicSortMultiple("c DESC","b Asc","a")));`
 ## ИЛИ ЕЩЕ
-#### let statuses = ['status_body','status_current_page', 'status_current_lng', 'status_current_flg'];
-#### statuses.map(item => hf.sts.create_status(item, callbackf)); //ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
-#### statuses.map(item => global[item].currentStatus = "open"); //В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
-#### setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);
+#### `let statuses = ['status_body','status_current_page', 'status_current_lng', 'status_current_flg'];`
+##### ЦИКЛОМ СОЗДАЕМ СТАТУСЫ С ИМЕНАМИ ИЗ МАССИВА
+#### `statuses.map(item => hf.sts.create_status(item, callbackf));` 
+##### В СТАТУСАХ ЦИКЛОМ ИЗМЕНЯЕМ ИХ currentStatus
+#### `statuses.map(item => global[item].currentStatus = "open");`
+#### `setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);`
 
 
-# "ПОПОЛНИМ КОПИЛКУ" - ПРИ ЖЕЛАНИЕ ВЫСЫЛАЙТЕ СВОИ "РАБОЧИЕ" ФУНКИИ И DEMO
+### `"ПОПОЛНИМ КОПИЛКУ"` - ПРИ ЖЕЛАНИЕ ВЫСЫЛАЙТЕ СВОИ "РАБОЧИЕ" ФУНКИИ И DEMO
