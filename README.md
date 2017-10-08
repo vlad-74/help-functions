@@ -11,11 +11,11 @@
 
 # ФУНКЦИИ РАЗБИТЫ НА JS ФАЙЛЫ "ПО ФУНКЦИОНАЛУ"
 ## ФАЙЛ index.js АГРЕГИРУЕТ ВСЕ ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ :
-###exports.fun = require('./functions');
-###exports.arr = require('./array'); 
-###exports.obj = require('./obj');
-###exports.fil = require('./fs');
-###exports.bro = require('./browser');
-###exports.wat = require('./watch'); 
-###exports.sts = require('./status'); 
-###exports.vld = require('./validation'); 
+### exports.fun = require('./functions');
+### exports.arr = require('./array'); 
+### exports.obj = require('./obj');
+### exports.fil = require('./fs');
+### exports.bro = require('./browser');
+### exports.wat = require('./watch'); 
+### exports.sts = require('./status'); 
+### exports.vld = require('./validation'); 
