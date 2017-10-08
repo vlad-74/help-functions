@@ -1,4 +1,4 @@
-# JAVASCRIPT help-functions :
+# JAVASCRIPT `help-functions`
 
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `cmd ДЕМО (СНИППЕТЫ)- для наглядности и закрепления навыков`
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') `БИБЛИОТЕКА ФУНКЦИЙ`               
@@ -11,14 +11,14 @@
 
 # ФУНКЦИИ РАЗБИТЫ НА JS ФАЙЛЫ "ПО ФУНКЦИОНАЛУ"
 ## ФАЙЛ index.js АГРЕГИРУЕТ ВСЕ ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ :
-#### exports.fun = require('./functions');
-#### exports.arr = require('./array'); 
-#### exports.obj = require('./obj');
-#### exports.fil = require('./fs');
-#### exports.bro = require('./browser');
-#### exports.wat = require('./watch'); 
-#### exports.sts = require('./status'); 
-#### exports.vld = require('./validation'); 
+#### `exports.fun = require('./functions');`
+#### `exports.arr = require('./array'); `
+#### `exports.obj = require('./obj');`
+#### `exports.fil = require('./fs');`
+#### `exports.bro = require('./browser');`
+#### `exports.wat = require('./watch'); `
+#### `exports.sts = require('./status');` 
+#### `exports.vld = require('./validation');`
 
 ## ПРИМЕР ИСПОЛЬЗОВАНИЯ ФУНКЦИЙ :
 #### `let hf = require('help-functions');` 
@@ -34,4 +34,4 @@
 #### `setTimeout(function(){ global[statuses[1]].currentStatus ="изменение"; }, 2000);`
 
 
-### `"ПОПОЛНИМ КОПИЛКУ"` - ПРИ ЖЕЛАНИЕ ВЫСЫЛАЙТЕ СВОИ "РАБОЧИЕ" ФУНКИИ И DEMO
+### `"ПОПОЛНИМ КОПИЛКУ"` - ВЫСЫЛАЙТЕ СВОИ "РАБОЧИЕ" ФУНКЦИИ И DEMO
