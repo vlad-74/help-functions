@@ -1,6 +1,0 @@
-﻿[
-    {"id": "cs", "home": "Domů", "portfolio": "portfolio", "about": "O mně"},
-    {"id": "de", "home": "home", "portfolio": "portfolio", "about": "Über mich"},
-    {"id": "nl", "home": "Thuis", "portfolio": "portfolio", "about": "Over mij"}, 
-    {"id": "tr", "home": "Ev", "portfolio": "Portföy", "about": "Hakkımda"}
-]
