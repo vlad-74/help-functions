@@ -1,7 +1,7 @@
 {
   "name": "help-functions",
-  "version": "1.0.24",
-  "description": "snippets, demo, myFunctions",
+  "version": "1.0.26",
+  "description": "snippets, myFunctions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

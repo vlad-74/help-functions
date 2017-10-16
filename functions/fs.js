@@ -1,6 +1,48 @@
 let fs = require('fs');
 const path = require('path');
 
+function fileTosting(fl){
+    return new Promise(function(resolve, reject) {
+        fs.readFile(fl, function(err, data) {
+          if (err) {
+            if (err.code == 'ENOENT') {
+                reject('ПУТЬ УКАЗАН НЕ ПРАИЛЬНО - ' + err.message);
+            } else {
+                reject('НЕПОНЯТНАЯ ОШИБКА - ' + err);
+            }
+          } else {
+            resolve(data.toString());
+          }
+        });  
+    })
+}
+exports.fileTosting = fileTosting;
+
+let allFiles = function(dir){
+    let r = fs.readdirSync(dir).filter(f => fs.statSync(path.join(dir, f)).isFile());
+    return r;
+};
+exports.allFiles = allFiles;
+
+let allDir = function(dir){
+    let d = fs.readdirSync(dir).filter(f => fs.statSync(path.join(dir, f)).isDirectory());
+    return d;
+};
+exports.allDir = allDir;
+
+function cmdConsLog(dr,fl){
+    let allfiles = allFiles(dr);
+    let allfolders = allDir(dr);
+
+    console.log(gl_hr, '\nВСЕ папки раздела : ', allfolders, '\nВСЕ файлы раздела : ', allfiles, '\n' + gl_hr);
+
+    fileTosting(fl)
+      .then(function res(result) {console.log(result + '\n' + gl_hr);})
+      .catch(function err(result) {console.log('ОШИБОЧКА ВЫШЛА = ', result + '\n' + gl_hr);});
+    console.log(gl_hr); 
+}
+exports.cmdConsLog = cmdConsLog;
+
 let allFilesFromFolder = function(dir, filelist = []) {
     var path = path || require('path'),
     fs = fs || require('fs'),
