@@ -91,4 +91,13 @@ exports.httpGetPromise = function(url){
   });
 }
 
+//ПРИМЕР ПРОМИСА ДЛЯ ТЕСТОВ С ЗАДАВАНМЫМ ИНТЕРВАЛОМ
+exports.getPromise = (n) => {
+    return new Promise(function(resolve, reject) {
+        setTimeout(() => {
+            resolve('Promise ФУНКЦИЯ getPromise'+ n +'() ОТРАБОТАЛА !');
+        }, n);
+    });
+};
+
 process.stdout.write('| ajax ');

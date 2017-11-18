@@ -63,7 +63,6 @@ exports.toLowerFirstLetter = function(string) {
     return string[0].toLowerCase() + string.slice(1);
 };
 
-
 exports.supports_localStorage = function() {
   try {
     return 'localStorage' in window && window['localStorage'] !== null;
@@ -72,4 +71,8 @@ exports.supports_localStorage = function() {
   }
 };
 
-process.stdout.write('КОНТЕНТ ИЗ help-functions: | functions ');
+exports.getFunctionName = function(){
+  return '| function - ' + (new Error()).stack.split('\n')[2].split(' ')[5] + ' | ';
+};
+
+process.stdout.write('КОНТЕНТ ИЗ help-functions:' +'\n' + '| functions ');

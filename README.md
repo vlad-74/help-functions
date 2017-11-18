@@ -1,7 +1,8 @@
-# `БИБЛИОТЕКА ФУНКЦИЙ JAVASCRIPT help-functions`
+# `БИБЛИОТЕКА ФУНКЦИЙ JAVASCRIPT`
 
-# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm install help-functions` или `npm install help-functions -S`
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm install help-functions`
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm up help-functions` : обновить модуль у пользователя
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [help-functions КАК ПРИМЕР ИСПОЛЬЗОВАНИЯ ВО frontend-demo-snippets - ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА javascript & css](https://github.com/vlad-74/frontend-demo-snippets)
 
 ## ВЫВЕСТИ НАЗВАНИЯ ВСЕХ ФУНКЦИЙ В help-functions:
 ### ....\help-functions>`node allfunctions`
@@ -15,7 +16,8 @@
 #### `exports.fil = require('./functions/fs');`
 #### `exports.bro = require('./functions/browser');`
 #### `exports.wat = require('./functions/watch'); `
-#### `exports.sts = require('./functions/status');` 
+#### `exports.sts = require('./functions/status');`
+#### `exports.mng = require('./functions/mongo');` ("mongodb": "^2.2.33") 
 #### `exports.vld = require('./functions/validation');`
 
 ## [ПРИМЕР ИСПОЛЬЗОВАНИЯ ФУНКЦИЙ (ссылка на runkit)](https://npm.runkit.com/help-functions):

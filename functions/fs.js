@@ -1,12 +1,12 @@
 let fs = require('fs');
 const path = require('path');
 
-function fileTosting(fl){
+function fileTostring(fl){
     return new Promise(function(resolve, reject) {
         fs.readFile(fl, function(err, data) {
           if (err) {
             if (err.code == 'ENOENT') {
-                reject('ПУТЬ УКАЗАН НЕ ПРАИЛЬНО - ' + err.message);
+                reject('ПУТЬ УКАЗАН НЕ ПРАИВЛЬНО - ' + err.message);
             } else {
                 reject('НЕПОНЯТНАЯ ОШИБКА - ' + err);
             }
@@ -16,7 +16,7 @@ function fileTosting(fl){
         });  
     })
 }
-exports.fileTosting = fileTosting;
+exports.fileTostring = fileTostring;
 
 let allFiles = function(dir){
     let r = fs.readdirSync(dir).filter(f => fs.statSync(path.join(dir, f)).isFile());
@@ -34,9 +34,9 @@ function cmdConsLog(dr,fl){
     let allfiles = allFiles(dr);
     let allfolders = allDir(dr);
 
-    console.log(gl_hr, '\nВСЕ папки раздела : ', allfolders, '\nВСЕ файлы раздела : ', allfiles, '\n' + gl_hr);
+    console.log('\n' + gl_hr, '\nВСЕ папки раздела : ', allfolders, '\nВСЕ файлы раздела : ', allfiles, '\n' + gl_hr);
 
-    fileTosting(fl)
+    fileTostring(fl)
       .then(function res(result) {console.log(result + '\n' + gl_hr);})
       .catch(function err(result) {console.log('ОШИБОЧКА ВЫШЛА = ', result + '\n' + gl_hr);});
     console.log(gl_hr); 
