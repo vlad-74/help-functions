@@ -2,7 +2,8 @@
 
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm install help-functions`
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm up help-functions` : обновить модуль у пользователя
-# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [help-functions КАК ПРИМЕР ИСПОЛЬЗОВАНИЯ ВО frontend-demo-snippets - ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА javascript & css](https://github.com/vlad-74/frontend-demo-snippets)
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [`ВЕРСИИ` help-functions :](https://github.com/vlad-74/help-functions/blob/master/version.md)
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [В ДОПОЛНЕНИЕ К help-functions - ИНСТРУМЕНТАРИЙ ДЛЯ НАЧИНАЮЩИХ РАЗРАБОТЧИКОВ - frontend-tool](https://github.com/vlad-74/frontend-tool)
 
 ## ВЫВЕСТИ НАЗВАНИЯ ВСЕХ ФУНКЦИЙ В help-functions:
 ### ....\help-functions>`node allfunctions`

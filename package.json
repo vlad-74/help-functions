@@ -1,6 +1,6 @@
 {
   "name": "help-functions",
-  "version": "1.0.36",
+  "version": "1.0.39",
   "description": "snippets, myFunctions",
   "main": "index.js",
   "scripts": {

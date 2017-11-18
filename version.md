@@ -1,7 +1,22 @@
 # `ВЕРСИИ help-functions`
 
-# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : `
+## ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.39`
 
-## ИЗМЕНЕНИЯ :
+## ИЗМЕНЕНИЯ : добавлены 2 функции
 
-### `TEXT`
+### `//ПРИМЕР ПРОМИСА ДЛЯ ТЕСТОВ С ЗАДАВАНМЫМ ИНТЕРВАЛОМ
+exports.getPromise = (n) => {
+    return new Promise(function(resolve, reject) {
+        setTimeout(() => {
+            resolve('Promise ФУНКЦИЯ getPromise'+ n +'() ОТРАБОТАЛА !');
+        }, n);
+    });
+};
+`
+
+### `exports.getFunctionName = function(){
+  return '| function - ' + (new Error()).stack.split('\n')[2].split(' ')[5] + ' | ';
+};
+`
+
+#### `ПРИМЕЧАНИЕ :` СОВМЕСТНО С МОДУЛЬНЫМ ЛОГОМ ПОЛУЧАЕМ В РАСПОРЯЖЕНИЕ НАЗВАНИЕ ФАЙЛА И НАЗВАНИЕ ФУНКЦИИ
