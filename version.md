@@ -1,10 +1,10 @@
 # `ВЕРСИИ help-functions`
 
-## ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.39`
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.39`
 
 ## ИЗМЕНЕНИЯ : добавлены 2 функции
 
-### `//ПРИМЕР ПРОМИСА ДЛЯ ТЕСТОВ С ЗАДАВАНМЫМ ИНТЕРВАЛОМ
+### `// ПРИМЕР ПРОМИСА ДЛЯ ТЕСТОВ С ЗАДАНHЫМ ИНТЕРВАЛОМ (n)
 exports.getPromise = (n) => {
     return new Promise(function(resolve, reject) {
         setTimeout(() => {
@@ -14,9 +14,10 @@ exports.getPromise = (n) => {
 };
 `
 
-### `exports.getFunctionName = function(){
+### `// ВОЗВРАЩАЕТ НАЗВАНИЕ ФУНКЦИИ
+exports.getFunctionName = function(){
   return '| function - ' + (new Error()).stack.split('\n')[2].split(' ')[5] + ' | ';
 };
 `
 
-#### `ПРИМЕЧАНИЕ :` СОВМЕСТНО С МОДУЛЬНЫМ ЛОГОМ ПОЛУЧАЕМ В РАСПОРЯЖЕНИЕ НАЗВАНИЕ ФАЙЛА И НАЗВАНИЕ ФУНКЦИИ
+#### `ПРИМЕЧАНИЕ :` getFunctionName СОВМЕСТНО С МОДУЛЬНЫМ ЛОГОМ - ПОЛУЧАЕМ В РАСПОРЯЖЕНИЕ НАЗВАНИЕ ФАЙЛА И НАЗВАНИЕ ФУНКЦИИ
