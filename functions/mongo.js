@@ -139,4 +139,4 @@ exports.dropCollection = function(dbn, col) {
 };
 
 
-process.stdout.write('| mongo ');
+// process.stdout.write('| mongo ');

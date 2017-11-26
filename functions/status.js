@@ -27,4 +27,4 @@ exports.create_status = function(n, c/*c - ОПЦИОНАЛЬНО*/) {
 	global[n].name = n;
 };
 
-process.stdout.write('| status ');
+// process.stdout.write('| status ');

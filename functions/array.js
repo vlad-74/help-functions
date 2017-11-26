@@ -90,4 +90,4 @@ exports.gl_reduce = Array.prototype.reduce
     return accumulator;
 };
 
-process.stdout.write('| array ');
+// process.stdout.write('| array ');

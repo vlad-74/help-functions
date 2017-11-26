@@ -100,4 +100,4 @@ exports.getPromise = (n) => {
     });
 };
 
-process.stdout.write('| ajax ');
+// process.stdout.write('| ajax ');

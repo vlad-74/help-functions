@@ -235,4 +235,4 @@ exports.readFileLineByLine = function(filename, processline) {
     });
 };
 
-process.stdout.write('| fs ');
+// process.stdout.write('| fs ');

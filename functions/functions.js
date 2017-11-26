@@ -71,8 +71,45 @@ exports.supports_localStorage = function() {
   }
 };
 
-exports.getFunctionName = function(){
-  return '| function - ' + (new Error()).stack.split('\n')[2].split(' ')[5] + ' | ';
+let getBrowser = function() {
+    var b = "unknown";
+    try {
+        var e;
+        var f = e.width;
+    } catch (e) {
+        var err = e.toString();
+        if(err.search("not an object") !== -1){
+            return "safari";
+        } else if(err.search("Cannot read") !== -1){
+            return "chrome";
+        } else if(err.search("e is undefined") !== -1){
+            return "firefox";
+        } else if(err.search("Unable to get property 'width' of undefined or null reference") !== -1){
+            if(!(false || !!document.documentMode) && !!window.StyleMedia){
+                return "edge";
+            }
+        } else if(err.search("cannot convert e into object") !== -1){
+            return "opera";
+        } else if(/*@cc_on!@*/false || !!document.documentMode){
+            return "IE";
+        } else {
+            return undefined;
+        }
+    }
 };
 
-process.stdout.write('КОНТЕНТ ИЗ help-functions:' +'\n' + '| functions ');
+exports.getFunctionName = function(){
+  let err = new Error().stack, txt_fun,fun,emp;
+  emp = ' - АНОНИМНАЯ';
+  if(getBrowser() == "chrome") {
+    fun = err.split('\n')[2].split(' ')[5];
+    if(fun != 'Object.<anonymous>'){ txt_fun = err.split('\n')[2].split(' ')[5];}else{txt_fun = emp}
+    return getBrowser() + ' | ФАЙЛ ' + (err).split('\n')[2].split(' ')[6].split('/')[4].split(':')[0] + ' | ФУНКЦИЯ ' + txt_fun + ' | ';
+  }else{
+    fun = err.split('\n')[1].split('@')[0];
+    if(fun != ''){ txt_fun = err.split('\n')[1].split('@')[0]}else{txt_fun = emp}
+    return getBrowser() + ' | ФАЙЛ ' + (err).split('js/')[1].split(':')[0] + ' | ФУНКЦИЯ ' + txt_fun + ' | ';
+  }
+};
+
+// process.stdout.write('КОНТЕНТ ИЗ help-functions:' +'\n' + '| functions ');

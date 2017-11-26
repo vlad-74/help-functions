@@ -25,4 +25,4 @@ exports.getBrowser = function() {
     }
 };
 
-process.stdout.write('| browser ');
+// process.stdout.write('| browser ');

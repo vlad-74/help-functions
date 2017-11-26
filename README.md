@@ -1,4 +1,4 @@
-# `БИБЛИОТЕКА ФУНКЦИЙ JAVASCRIPT`
+# `БИБЛИОТЕКА ФУНКЦИЙ JAVASCRIPT` (библиотека для "тренировки на кошках", некоторый функционал не дружит с webpack)
 
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm install help-functions`
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm up help-functions` : обновить модуль у пользователя

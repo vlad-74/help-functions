@@ -24,4 +24,4 @@ exports.classof = function(o) {
  return Object.prototype.toString.call(o).slice(8,-1);
 };
 
-process.stdout.write('| validation ');
+// process.stdout.write('| validation ');

@@ -87,4 +87,4 @@ exports.objToString = function(obj, ndeep) {
   }
 };
 
-process.stdout.write('| obj ');
+// process.stdout.write('| obj ');

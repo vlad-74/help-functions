@@ -41,4 +41,4 @@ if (!Object.prototype.unwatch) {
 	});
 }
 
-process.stdout.write('| watch ');
+// process.stdout.write('| watch ');
