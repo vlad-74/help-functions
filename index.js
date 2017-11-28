@@ -14,4 +14,4 @@ exports.wat = require('./functions/watch');
 exports.sts = require('./functions/status'); 
 exports.vld = require('./functions/validation'); 
 
-process.stdout.write('| index ');
+// process.stdout.write('| index ');

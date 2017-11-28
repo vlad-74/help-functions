@@ -4,10 +4,11 @@
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm up help-functions` : обновить модуль у пользователя
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [ВЕРСИИ help-functions (ссылка)](https://github.com/vlad-74/help-functions/blob/master/version.md)
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') ДОПОЛНЕНИЕ К help-functions :
-# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='')  [ИНСТРУМЕНТАРИЙ ДЛЯ НАЧИНАЮЩИХ РАЗРАБОТЧИКОВ - frontend-tool](https://github.com/vlad-74/frontend-tool)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [СВОЙ "взрослый" САЙТ ЗА 99 РУБ/ГОД frontend-site](https://github.com/vlad-74/frontend-site)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ИНСТРУМЕНТАРИЙ ДЛЯ НАЧИНАЮЩИХ РАЗРАБОТЧИКОВ - frontend-tool](https://github.com/vlad-74/frontend-tool)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА css - frontend-tool-css](https://github.com/vlad-74/frontend-tool-css)
-# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='')  [ВИЗУАЛИЗАЦИЯ ШАБЛОНОВ javascript - frontend-tool-pattern](https://github.com/vlad-74/frontend-tool-pattern)
-# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='')  [КОНСОЛЬ-БРАУЗЕРНАЯ ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА javascript - frontend-demo-snippets](https://github.com/vlad-74/frontend-demo-snippets)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ШАБЛОНОВ javascript - frontend-demo-pattern](https://github.com/vlad-74/frontend-demo-pattern)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [КОНСОЛЬ-БРАУЗЕРНАЯ ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА javascript - frontend-demo-snippets](https://github.com/vlad-74/frontend-demo-snippets)
 
 ## ВЫВЕСТИ НАЗВАНИЯ ВСЕХ ФУНКЦИЙ В help-functions:
 ### ....\help-functions>`node allfunctions`
