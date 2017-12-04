@@ -5,7 +5,7 @@
 ## Добавлена функция strReverse
 #### exports.strReverse = function (str) {
 ####    return str.split('').reverse().join('');
-####};
+#### };
 ## ====================================================
 
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.49`
