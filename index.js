@@ -1,4 +1,5 @@
 global.gl_hr = '=======================================================================================';
+global.gl_hr2 = '---------------------------------------------------------------------------------------';
 global.gl_rz = '---------------------------------------РЕЗУЛЬТАТ---------------------------------------';
 
 require('./global.js');
@@ -11,7 +12,8 @@ exports.aja = require('./functions/ajax');
 exports.bro = require('./functions/browser');
 exports.mng = require('./functions/mongo');
 exports.wat = require('./functions/watch'); 
-exports.sts = require('./functions/status'); 
+exports.sts = require('./functions/status');
+exports.str = require('./functions/string');
 exports.vld = require('./functions/validation'); 
 
 // process.stdout.write('| index ');

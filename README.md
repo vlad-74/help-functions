@@ -23,6 +23,7 @@
 #### `exports.bro = require('./functions/browser');`
 #### `exports.wat = require('./functions/watch'); `
 #### `exports.sts = require('./functions/status');`
+#### `exports.str = require('./functions/string');`
 #### `exports.mng = require('./functions/mongo');` ("mongodb": "^2.2.33") 
 #### `exports.vld = require('./functions/validation');`
 
