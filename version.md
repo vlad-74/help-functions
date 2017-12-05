@@ -2,6 +2,11 @@
 
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.51`
 
+## Добавлена ссылка на [frontend-angularjs](https://github.com/vlad-74/frontend-angularjs)
+## ====================================================
+
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.51`
+
 ## Добавлена функция strReverse
 #### exports.strReverse = function (str) {
 ####    return str.split('').reverse().join('');

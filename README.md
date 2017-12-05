@@ -8,6 +8,7 @@
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ИНСТРУМЕНТАРИЙ ДЛЯ НАЧИНАЮЩИХ РАЗРАБОТЧИКОВ - frontend-tool](https://github.com/vlad-74/frontend-tool)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА css - frontend-tool-css](https://github.com/vlad-74/frontend-tool-css)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ШАБЛОНОВ javascript - frontend-demo-pattern](https://github.com/vlad-74/frontend-demo-pattern)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ANGULARJS - frontend-angularjs](https://github.com/vlad-74/frontend-angularjs)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [КОНСОЛЬ-БРАУЗЕРНАЯ ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА javascript - frontend-demo-snippets](https://github.com/vlad-74/frontend-demo-snippets)
 
 ## ВЫВЕСТИ НАЗВАНИЯ ВСЕХ ФУНКЦИЙ В help-functions:
