@@ -1,5 +1,10 @@
 # `ВЕРСИИ help-functions`
 
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.53`
+
+## Добавлена ссылка на [frontend-demo-gulp](https://github.com/vlad-74/frontend-demo-gulp)
+## ====================================================
+
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.51`
 
 ## Добавлена ссылка на [frontend-angularjs](https://github.com/vlad-74/frontend-angularjs)
