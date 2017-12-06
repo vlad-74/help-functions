@@ -1,7 +1,7 @@
 {
   "name": "help-functions",
-  "version": "1.0.57",
-  "description": "snippets, myFunctions",
+  "version": "1.0.58",
+  "description": "frontend, javascript, demo, snippets, css, angularjs, gulp, browsersync, patterns, logger, stylus, sourcemaps, sprite-image, minify, hash, social-icons, flexbox, bootstrap, site, yuidoc",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
