@@ -1,5 +1,10 @@
 # `ВЕРСИИ help-functions`
 
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.56`
+
+## Добавлена ссылка на [frontend-tool-angular-registration](https://github.com/vlad-74/frontend-tool-angular-registration)
+## ====================================================
+
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.53`
 
 ## Добавлена ссылка на [frontend-demo-gulp](https://github.com/vlad-74/frontend-demo-gulp)

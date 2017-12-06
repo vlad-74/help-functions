@@ -4,8 +4,9 @@
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm up help-functions` : обновить модуль у пользователя
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [ВЕРСИИ help-functions (ссылка)](https://github.com/vlad-74/help-functions/blob/master/version.md)
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') ДОПОЛНЕНИЕ К help-functions :
-# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ИНСТРУМЕНТАРИЙ ДЛЯ НАЧИНАЮЩИХ РАЗРАБОТЧИКОВ : frontend-tool!!! </br> (logger; .styl =>.css; sourcemaps; спрайт из картинок; browserSync; минимизация; добавление хеша в название файлов; прописывание путей с хешом в html файле)](https://github.com/vlad-74/frontend-tool)
-# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА CSS : frontend-tool-css </br> (social-icon; bootstrap; flexbox; box_sizing; position; animated)](https://github.com/vlad-74/frontend-tool-css)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ИНСТРУМЕНТАРИЙ ДЛЯ НАЧИНАЮЩИХ РАЗРАБОТЧИКОВ : frontend-tool !!! </br> (logger; .styl =>.css; sourcemaps; спрайт из картинок; browserSync; минимизация; добавление хеша в название файлов; прописывание путей с хешом в html файле)](https://github.com/vlad-74/frontend-tool)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ФУНКЦИОНАЛА CSS : frontend-tool-css </br> (social-icon; bootstrap; flexbox; box_sizing; position; animated; :nth-child)](https://github.com/vlad-74/frontend-tool-css)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ФУНКЦИОНАЛ РЕГИСТРАЦИИ И АУТЕНТИФИКАЦИ : frontend-tool-angular-registration](https://github.com/vlad-74/frontend-tool-angular-registration)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ШАБЛОНОВ JAVASCRIPT : frontend-demo-pattern </br> (CONSTRUCTOR; FACTORY; DECORATOR; MODULE; OBSERVER; OBSERVER_STATUS; SINGLETON; STRATEGY; FACADE)](https://github.com/vlad-74/frontend-demo-pattern)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ ANGULARJS : frontend-angularjs](https://github.com/vlad-74/frontend-angularjs)
 # ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ GULP : frontend-demo-gulp](https://github.com/vlad-74/frontend-demo-gulp)
