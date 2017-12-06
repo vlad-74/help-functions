@@ -1,6 +1,6 @@
 {
   "name": "help-functions",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "description": "frontend, javascript, demo, snippets, css, angularjs, gulp, browsersync, patterns, logger, stylus, sourcemaps, sprite-image, minify, hash, social-icons, flexbox, bootstrap, site, yuidoc",
   "main": "index.js",
   "scripts": {
