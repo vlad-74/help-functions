@@ -1,7 +1,7 @@
 {
   "name": "help-functions",
   "version": "1.0.62",
-  "description": "frontend, javascript, demo, snippets, css, angularjs, autentication, gulp, browsersync, patterns, logger, stylus, sourcemaps, sprite-image, minify, hash, social-icons, flexbox, bootstrap, site, yuidoc",
+  "description": "frontend, javascript, demo, snippets, gulp, browsersync, yuidoc, angularjs, drag&drop, css, stylus, flexbox, bootstrap, autentication, patterns, logger, sourcemaps, sprite-image, minify, hash, social-icons, site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
