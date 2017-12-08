@@ -1,5 +1,10 @@
 # `ВЕРСИИ help-functions`
 
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.62`
+
+## Добавлены стринговые функции delStart, delFinish, delMidle, delFrom
+## ====================================================
+
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.61`
 
 ## Добавлена ссылка на [frontend-tool-drag_drop (перетаскивание элементов)](https://github.com/vlad-74/frontend-tool-drag_drop)
