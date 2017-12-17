@@ -2,9 +2,10 @@
 
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.65`
 ## ФУНКЦИЯ ПОИСКА ИНДЕКСА В МАССИВЕ
-
+### source - массив объектов
+### id - id объекта
 ```
-function find_index_by_id(source,id){
+function find_index_by_id(source, id){
    let indexes = $.map(source, function(obj, index) {
            if(obj.id == id) {
                return index;
