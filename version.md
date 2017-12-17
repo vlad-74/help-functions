@@ -1,5 +1,23 @@
 # `ВЕРСИИ help-functions`
 
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.65`
+## ФУНКЦИЯ ПОИСКА ИНДЕКСА В МАССИВЕ
+
+```
+function find_index_by_id(source,id){
+   let indexes = $.map(source, function(obj, index) {
+           if(obj.id == id) {
+               return index;
+           }
+       }) 
+   return indexes[0];
+};
+
+```
+## ====================================================
+
+
+
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.64`
 
 ## Добавлена ссылка [сайт redminemini (gulp, webpack, browser-sync, angularjs, yuidoc)](https://redminemini.github.io/public/)
