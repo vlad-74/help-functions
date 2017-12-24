@@ -6,7 +6,8 @@
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm install help-functions`
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `npm up help-functions` : обновить модуль у пользователя
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [ВЕРСИИ help-functions](https://github.com/vlad-74/help-functions/blob/master/version.md)
-# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') [ДОПОЛНЕНИЕ К help-functions </br>(gulp, browsersync, yuidoc, angularjs, drag&drop, css, stylus, flexbox, bootstrap, autentication, patterns, logger, sourcemaps, sprite-image, minify, hash, social-icons, site)](https://github.com/vlad-74/help-functions/blob/master/more.md)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ВИЗУАЛИЗАЦИЯ help-functions И МНОГО ДРУГОГО](https://github.com/vlad-74/frontend-demo-snippets)
+# ![#FFDD00](https://placehold.it/20/FFDD00/000000?text='') [ДОПОЛНЕНИЕ К help-functions </br>(gulp, browsersync, yuidoc, angularjs, drag&drop, css, stylus, flexbox, bootstrap, autentication, patterns, logger, sourcemaps, sprite-image, minify, hash, social-icons, site)](https://github.com/vlad-74/help-functions/blob/master/more.md)
 ***
 ## ВЫВЕСТИ НАЗВАНИЯ ВСЕХ ФУНКЦИЙ В help-functions:
 ### ....\help-functions>`node allfunctions`

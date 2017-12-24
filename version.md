@@ -1,5 +1,10 @@
 # `ВЕРСИИ help-functions`
 
+# ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.66`
+
+## Добавлены ссылка на [frontend-demo-snippets](https://github.com/vlad-74/frontend-demo-snippets)
+## ====================================================
+
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.65`
 ## ФУНКЦИЯ ПОИСКА ИНДЕКСА В МАССИВЕ
 ### source - массив объектов
@@ -16,8 +21,6 @@ function find_index_by_id(source, id){
 
 ```
 ## ====================================================
-
-
 
 # ![#03CA27](https://placehold.it/20/c5f015/000000?text='') `ВЕРСИЯ : 1.0.64`
 
